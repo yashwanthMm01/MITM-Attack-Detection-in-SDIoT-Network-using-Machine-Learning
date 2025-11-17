@@ -1,0 +1,23 @@
+{
+  "model_name": "RandomForest",
+  "feature_names": [
+    "packet_rate",
+    "byte_rate",
+    "arp_rate",
+    "tcp_rate",
+    "udp_rate",
+    "icmp_rate",
+    "arp_reply_ratio",
+    "tcp_syn_ack_ratio",
+    "ip_mac_changes",
+    "unique_dst_ips",
+    "unique_dst_ports",
+    "avg_packet_size",
+    "std_packet_size",
+    "avg_inter_arrival_time"
+  ],
+  "num_features": 14,
+  "training_date": "2025-11-13 13:42:16",
+  "dataset_size": 346,
+  "test_accuracy": 0.9540229885057471
+}
